@@ -6,8 +6,13 @@ public class Telewizor {
     String kolor;
     double napiecie;
 
-    Telewizor(){
+    Telewizor(String mr, String md, int iCl, String kl, double nap){
 
+        marka = mr;
+        model = md;
+        iloscCali = iCl;
+        kolor = kl;
+        napiecie = nap;
     }
 
 }
